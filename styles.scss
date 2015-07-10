@@ -1,0 +1,14 @@
+$color_fondo: #232123;
+$color_acordeon: #181718;
+$color_texto: #A69E9A;
+
+body {
+	text-align: center;	
+	background-color: $color_fondo;
+	color: $color_texto;
+	font-family: arial;
+}
+
+.acordeon {
+	background-color: $color_acordeon;
+}
