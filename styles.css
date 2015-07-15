@@ -2,9 +2,28 @@ body {
   text-align: center;
   background-color: #232123;
   color: #A69E9A;
-  font-family: arial;
+  font-family: sans-serif;
 }
 
 .acordeon {
   background-color: #181718;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.acordeon__contenido {
+  background-color: #444444;
+  margin: 0;
+  padding: 5px 0;
+  display: none;
+  text-align: left;
+}
+
+.acordeon__titulo {
+  margin: 0;
+  padding: 0.7em 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 -1px 0 0 #000 inset;
+  text-shadow: 1px 1px #000;
+  cursor: pointer;
 }
